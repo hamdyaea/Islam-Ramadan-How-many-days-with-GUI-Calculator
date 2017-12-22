@@ -1,4 +1,9 @@
-# Islamic how many days to the ramadan calculator with GUI
+# Islamic how many days to the ramadan calculator with GUI  
+
+## What's this software ?  
+
+This software is developed in Python 3. It calculate how many days you have to wait until the ramadan you select.  
+This software work from the ramadan of 2018 to the ramadan of 2033.  
 
 ![Screenshot](screenshot.png)
 ![Screenshot](screenshot1.png)
@@ -6,10 +11,7 @@
 
 
 
-## What's this software ?  
 
-This software is developed in Python 3. It calculate how many days you have to wait until the ramadan you select.  
-This software work from the ramadan of 2018 to the ramadan of 2033.
 
 
 
