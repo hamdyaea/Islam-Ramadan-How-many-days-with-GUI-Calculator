@@ -1,4 +1,7 @@
+#!/usr/bin/env python3
+
 # Developer : Hamdy Abou El Anein
+# hamdy.aea@protonmail.com
 
 import datetime
 from datetime import date
@@ -16,8 +19,12 @@ def year2018():
     delta = d1 - d0
 
     image = ramadanpic
-    msg = "You have to wait "+str(delta.days)+str(" days \n\n\nthe 2018 ramadan will be the 16 May 2018")
-    choices = ["Select another year ?","Quit"]
+    msg = (
+        "You have to wait "
+        + str(delta.days)
+        + str(" days \n\n\nthe 2018 ramadan will be the 16 May 2018")
+    )
+    choices = ["Select another year ?", "Quit"]
     reply = buttonbox(msg, image=image, choices=choices)
     if reply == "Select another year ?":
         year()
@@ -34,8 +41,12 @@ def year2019():
     delta = d1 - d0
 
     image = ramadanpic
-    msg = "You have to wait "+str(delta.days)+str(" days \n\n\nthe 2019 ramadan will be the 6 May 2019")
-    choices = ["Select another year ?","Quit"]
+    msg = (
+        "You have to wait "
+        + str(delta.days)
+        + str(" days \n\n\nthe 2019 ramadan will be the 6 May 2019")
+    )
+    choices = ["Select another year ?", "Quit"]
     reply = buttonbox(msg, image=image, choices=choices)
     if reply == "Select another year ?":
         year()
@@ -52,8 +63,12 @@ def year2020():
     delta = d1 - d0
 
     image = ramadanpic
-    msg = "You have to wait "+str(delta.days)+str(" days \n\n\nthe 2020 ramadan will be the 24 April 2020")
-    choices = ["Select another year ?","Quit"]
+    msg = (
+        "You have to wait "
+        + str(delta.days)
+        + str(" days \n\n\nthe 2020 ramadan will be the 24 April 2020")
+    )
+    choices = ["Select another year ?", "Quit"]
     reply = buttonbox(msg, image=image, choices=choices)
     if reply == "Select another year ?":
         year()
@@ -70,8 +85,12 @@ def year2021():
     delta = d1 - d0
 
     image = ramadanpic
-    msg = "You have to wait "+str(delta.days)+str(" days \n\n\nthe 2021 ramadan will be the 13 April 2021")
-    choices = ["Select another year ?","Quit"]
+    msg = (
+        "You have to wait "
+        + str(delta.days)
+        + str(" days \n\n\nthe 2021 ramadan will be the 13 April 2021")
+    )
+    choices = ["Select another year ?", "Quit"]
     reply = buttonbox(msg, image=image, choices=choices)
     if reply == "Select another year ?":
         year()
@@ -88,8 +107,12 @@ def year2022():
     delta = d1 - d0
 
     image = ramadanpic
-    msg = "You have to wait "+str(delta.days)+str(" days \n\n\nthe 2022 ramadan will be the 3 April 2022")
-    choices = ["Select another year ?","Quit"]
+    msg = (
+        "You have to wait "
+        + str(delta.days)
+        + str(" days \n\n\nthe 2022 ramadan will be the 3 April 2022")
+    )
+    choices = ["Select another year ?", "Quit"]
     reply = buttonbox(msg, image=image, choices=choices)
     if reply == "Select another year ?":
         year()
@@ -106,8 +129,12 @@ def year2023():
     delta = d1 - d0
 
     image = ramadanpic
-    msg = "You have to wait "+str(delta.days)+str(" days \n\n\nthe 2023 ramadan will be the 23 March 2023")
-    choices = ["Select another year ?","Quit"]
+    msg = (
+        "You have to wait "
+        + str(delta.days)
+        + str(" days \n\n\nthe 2023 ramadan will be the 23 March 2023")
+    )
+    choices = ["Select another year ?", "Quit"]
     reply = buttonbox(msg, image=image, choices=choices)
     if reply == "Select another year ?":
         year()
@@ -124,8 +151,12 @@ def year2024():
     delta = d1 - d0
 
     image = ramadanpic
-    msg = "You have to wait "+str(delta.days)+str(" days \n\n\nthe 2024 ramadan will be the 11 March 2024")
-    choices = ["Select another year ?","Quit"]
+    msg = (
+        "You have to wait "
+        + str(delta.days)
+        + str(" days \n\n\nthe 2024 ramadan will be the 11 March 2024")
+    )
+    choices = ["Select another year ?", "Quit"]
     reply = buttonbox(msg, image=image, choices=choices)
     if reply == "Select another year ?":
         year()
@@ -142,8 +173,12 @@ def year2025():
     delta = d1 - d0
 
     image = ramadanpic
-    msg = "You have to wait "+str(delta.days)+str(" days \n\n\nthe 2025 ramadan will be the 1 March 2025")
-    choices = ["Select another year ?","Quit"]
+    msg = (
+        "You have to wait "
+        + str(delta.days)
+        + str(" days \n\n\nthe 2025 ramadan will be the 1 March 2025")
+    )
+    choices = ["Select another year ?", "Quit"]
     reply = buttonbox(msg, image=image, choices=choices)
     if reply == "Select another year ?":
         year()
@@ -160,8 +195,12 @@ def year2026():
     delta = d1 - d0
 
     image = ramadanpic
-    msg = "You have to wait "+str(delta.days)+str(" days \n\n\nthe 2026 ramadan will be the 18 February 2026")
-    choices = ["Select another year ?","Quit"]
+    msg = (
+        "You have to wait "
+        + str(delta.days)
+        + str(" days \n\n\nthe 2026 ramadan will be the 18 February 2026")
+    )
+    choices = ["Select another year ?", "Quit"]
     reply = buttonbox(msg, image=image, choices=choices)
     if reply == "Select another year ?":
         year()
@@ -178,8 +217,12 @@ def year2027():
     delta = d1 - d0
 
     image = ramadanpic
-    msg = "You have to wait "+str(delta.days)+str(" days \n\n\nthe 2027 ramadan will be the 8 February 2027")
-    choices = ["Select another year ?","Quit"]
+    msg = (
+        "You have to wait "
+        + str(delta.days)
+        + str(" days \n\n\nthe 2027 ramadan will be the 8 February 2027")
+    )
+    choices = ["Select another year ?", "Quit"]
     reply = buttonbox(msg, image=image, choices=choices)
     if reply == "Select another year ?":
         year()
@@ -196,8 +239,12 @@ def year2028():
     delta = d1 - d0
 
     image = ramadanpic
-    msg = "You have to wait "+str(delta.days)+str(" days \n\n\nthe 2028 ramadan will be the 28 January 2028")
-    choices = ["Select another year ?","Quit"]
+    msg = (
+        "You have to wait "
+        + str(delta.days)
+        + str(" days \n\n\nthe 2028 ramadan will be the 28 January 2028")
+    )
+    choices = ["Select another year ?", "Quit"]
     reply = buttonbox(msg, image=image, choices=choices)
     if reply == "Select another year ?":
         year()
@@ -214,8 +261,12 @@ def year2029():
     delta = d1 - d0
 
     image = ramadanpic
-    msg = "You have to wait "+str(delta.days)+str(" days \n\n\nthe 2029 ramadan will be the 16 January 2029")
-    choices = ["Select another year ?","Quit"]
+    msg = (
+        "You have to wait "
+        + str(delta.days)
+        + str(" days \n\n\nthe 2029 ramadan will be the 16 January 2029")
+    )
+    choices = ["Select another year ?", "Quit"]
     reply = buttonbox(msg, image=image, choices=choices)
     if reply == "Select another year ?":
         year()
@@ -232,8 +283,12 @@ def year2030():
     delta = d1 - d0
 
     image = ramadanpic
-    msg = "You have to wait "+str(delta.days)+str(" days \n\n\nthe 2030 ramadan will be the 6 January 2030")
-    choices = ["Select another year ?","Quit"]
+    msg = (
+        "You have to wait "
+        + str(delta.days)
+        + str(" days \n\n\nthe 2030 ramadan will be the 6 January 2030")
+    )
+    choices = ["Select another year ?", "Quit"]
     reply = buttonbox(msg, image=image, choices=choices)
     if reply == "Select another year ?":
         year()
@@ -250,8 +305,12 @@ def year2031():
     delta = d1 - d0
 
     image = ramadanpic
-    msg = "You have to wait "+str(delta.days)+str(" days \n\n\nthe 2031 ramadan will be the 26 December 2030")
-    choices = ["Select another year ?","Quit"]
+    msg = (
+        "You have to wait "
+        + str(delta.days)
+        + str(" days \n\n\nthe 2031 ramadan will be the 26 December 2030")
+    )
+    choices = ["Select another year ?", "Quit"]
     reply = buttonbox(msg, image=image, choices=choices)
     if reply == "Select another year ?":
         year()
@@ -268,8 +327,12 @@ def year2032():
     delta = d1 - d0
 
     image = ramadanpic
-    msg = "You have to wait "+str(delta.days)+str(" days \n\n\nthe 2032 ramadan will be the 15 December 2031")
-    choices = ["Select another year ?","Quit"]
+    msg = (
+        "You have to wait "
+        + str(delta.days)
+        + str(" days \n\n\nthe 2032 ramadan will be the 15 December 2031")
+    )
+    choices = ["Select another year ?", "Quit"]
     reply = buttonbox(msg, image=image, choices=choices)
     if reply == "Select another year ?":
         year()
@@ -286,8 +349,12 @@ def year2033():
     delta = d1 - d0
 
     image = ramadanpic
-    msg = "You have to wait "+str(delta.days)+str(" days \n\n\nthe 2033 ramadan will be the 4 December 2032")
-    choices = ["Select another year ?","Quit"]
+    msg = (
+        "You have to wait "
+        + str(delta.days)
+        + str(" days \n\n\nthe 2033 ramadan will be the 4 December 2032")
+    )
+    choices = ["Select another year ?", "Quit"]
     reply = buttonbox(msg, image=image, choices=choices)
     if reply == "Select another year ?":
         year()
@@ -297,12 +364,27 @@ def year2033():
         sys.exit(0)
 
 
-
-
 def year():
     msg = "Select the Ramadan year to calculate how many days from now until this date"
     title = "Select the Ramadan year"
-    choices = ["2018", "2019", "2020", "2021","2022","2023","2024","2025","2026","2027","2028","2029","2030","2031","2032","2033"]
+    choices = [
+        "2018",
+        "2019",
+        "2020",
+        "2021",
+        "2022",
+        "2023",
+        "2024",
+        "2025",
+        "2026",
+        "2027",
+        "2028",
+        "2029",
+        "2030",
+        "2031",
+        "2032",
+        "2033",
+    ]
     choice = choicebox(msg, title, choices)
     if choice == "2018":
         year2018()
@@ -340,7 +422,6 @@ def year():
         sys.exit(0)
 
 
-
 def begin():
     image = allahakbar
     msg = "                 Islamic How many days to the Ramadan Calculator\n\n\nThis software calculate how many days you have to wait until the ramadan you select\n\n\nThis software work from the ramadan of 2018 to the ramadan of 2033"
@@ -355,5 +436,3 @@ def begin():
 
 
 begin()
-
-
