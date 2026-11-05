@@ -4,6 +4,7 @@
 # SPDX-License-Identifier: GPL-3.0-only
 """Countdown to historical estimated Ramadan start dates (not authoritative)."""
 from __future__ import annotations
+from pathlib import Path
 import argparse
 from datetime import date
 import tkinter as tk
@@ -50,19 +51,23 @@ def main() -> None:
         return
     root = tk.Tk()
     root.title("Ramadan Date Estimates")
-    root.geometry("540x240")
     frame = ttk.Frame(root, padding=20)
     frame.pack(fill="both", expand=True)
     selected = tk.StringVar(value="2026")
     output = tk.StringVar()
+    artwork = tk.PhotoImage(file=str(Path(__file__).resolve().parent / "images/ramadan-ui.png"))
+    illustration = tk.Label(frame, image=artwork)
+    illustration.image = artwork
+    illustration.pack()
+    result_image = tk.PhotoImage(file=str(Path(__file__).resolve().parent / "images/AllahAkbar-ui.png"))
     ttk.Label(frame, text="Select an estimated Ramadan start (historical dataset)").pack(pady=8)
     ttk.Combobox(frame, textvariable=selected, values=tuple(ESTIMATES), state="readonly").pack(pady=5)
     def update() -> None:
+        illustration.configure(image=result_image)
         output.set(result(selected.get()))
     ttk.Button(frame, text="Calculate days", command=update).pack(pady=10)
     ttk.Label(frame, textvariable=output).pack()
     ttk.Label(frame, text="Dates are estimates, not official moon-sighting announcements.", wraplength=490).pack(pady=10)
-    update()
     root.mainloop()
 
 if __name__ == "__main__":
